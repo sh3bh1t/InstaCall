@@ -16,7 +16,7 @@ dotenv.config();
 const uri= process.env.MONGO_URL;
 
 
-app.set("port", (process.env.PORT || 3030))
+const port = process.env.PORT || 3030 ;
 app.use(cors({
     origin: 'https://instacall-1.onrender.com',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
