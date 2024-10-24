@@ -18,7 +18,7 @@ const uri= process.env.MONGO_URL;
 
 const port = process.env.PORT || 3030 ;
 app.use(cors({
-    origin: 'https://instacall-1.onrender.com',
+    origin: 'https://instacall.onrender.com',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true 
 }));
