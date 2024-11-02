@@ -28,6 +28,13 @@
 
 }
 
+.landingPageContainer nav .navlist p{
+  border: 2px solid #FF9839;
+  padding-inline: 0.6rem;
+  padding-block: 0.4rem;
+  border-radius: 1.4rem;
+}
+
 .landingMainContainer {
   display: flex;
   justify-content: space-between;
@@ -43,8 +50,9 @@
 .landingMainContainer>div:nth-child(1) div[role='button'] {
   background: #D97500;
   width: fit-content;
-  padding: 1rem;
-  border-radius: 20px;
+  padding-inline: 1rem;
+  padding-bottom: 0.6rem;
+  border-radius: 1.5rem;
   margin-top: 1.9rem;
 }
 

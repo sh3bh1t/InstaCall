@@ -456,7 +456,7 @@ export default function VideoMeetComponent() {
 
                     <h2>Enter into Lobby </h2>
                     <TextField id="outlined-basic" label="Username" value={username} onChange={e => setUsername(e.target.value)} variant="outlined" />
-                    <Button variant="contained" onClick={connect}>Connect</Button>
+                    <Button variant="contained" onClick={connect}>Join</Button>
 
 
                     <div>
@@ -484,7 +484,7 @@ export default function VideoMeetComponent() {
                                             <p>{item.data}</p>
                                         </div>
                                     )
-                                }) : <p>No Messages Yet</p>}
+                                }) : <p>No Messages Yet , be the first one to send a Message</p>}
 
 
                             </div>
